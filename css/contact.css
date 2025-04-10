@@ -1,11 +1,22 @@
 @import "./main.css";
 @import "./normalize.css";
 
+.contact__primary-btn {
+  border-color: #f67e7e;
+  color: #f67e7e;
+
+  &:hover {
+    background-color: #f67e7e;
+    color: #fff;
+  }
+}
+
 .contact {
   background-color: #014e56;
   padding-top: 51px;
   padding-bottom: 120px;
-  background-image: url('../images/bg-pattern-about-2-contact-1.svg'), url('../images/bg-pattern-contact-2.svg');
+  background-image: url("../images/bg-pattern-about-2-contact-1.svg"),
+    url("../images/bg-pattern-contact-2.svg");
   background-repeat: no-repeat;
   background-position: left -100px top 55px, bottom right -100px;
 }
@@ -69,6 +80,9 @@
   max-width: 540px;
   margin-bottom: 41px;
 }
+textarea {
+  transition: 0s;
+}
 .form__btn {
   padding: 9px 32px;
   border-radius: 24px;
@@ -80,4 +94,9 @@
   font-style: normal;
   font-weight: 600;
   line-height: 28px; /* 155.556% */
+
+  &:hover {
+    background-color: transparent;
+    color: #fff;
+  }
 }
