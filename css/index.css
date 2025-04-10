@@ -1,2 +1,153 @@
 @import "./main.css";
 @import "./normalize.css";
+
+.hero {
+  padding-top: 56px;
+  padding-bottom: 250px;
+  background: #014e56;
+  background-image: url("../images/bg-pattern-home-1.svg"),
+    url("../images/bg-pattern-home-2.svg");
+  background-repeat: no-repeat;
+  background-position: left -100px top 70px, bottom right 165px;
+}
+.hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero__title {
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px; /* 100% */
+}
+.hero__desc {
+  max-width: 445px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 155.556% */
+}
+.divider {
+  background: #79c8c7;
+  margin-bottom: 79px;
+}
+.hero-divider {
+}
+.hero__desc__text {
+}
+
+/* FEATURES */
+.faetures {
+  background-color: #012f34;
+  background-image: url("../images/bg-pattern-home-3.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right -100px;
+}
+.features__container {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.features__divider {
+  background: #f67e7e;
+}
+.features__wrapper {
+  display: flex;
+  margin-bottom: 54px;
+  justify-content: space-between;
+}
+.faetures__title {
+  width: 445px;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+.features__list {
+}
+.features__item {
+  display: flex;
+  gap: 23px;
+  margin-bottom: 32px;
+}
+.features__item__title {
+  color: #f67e7e;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+  margin-bottom: 16px;
+}
+.features__item__desc {
+  max-width: 445px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 166.667% */
+  opacity: 0.8;
+}
+
+/* TESTEMONAILS */
+.testemonails {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: #004047;
+}
+.testemonails__container {
+}
+.container {
+}
+.testemonails__title {
+  text-align: center;
+  font-family: Livvic;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 100% */
+  margin-bottom: 56px;
+
+  span {
+    color: #79c8c7;
+  }
+}
+.testimonails__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonails__item {
+  background-image: url("../images/icon-quotes.svg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.testemonails__item__avatar {
+  border: 2px solid #c4fffe;
+  border-radius: 50%;
+}
+.testimonails__item__desc {
+  max-width: 350px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 166.667% */
+  margin-bottom: 24px;
+}
+.testemonails__item__title {
+  color: #79c8c7;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 155.556% */
+}
+.testemonails__italic {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px; /* 138.462% */
+  margin-bottom: 32px;
+}
